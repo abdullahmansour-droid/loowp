@@ -1,0 +1,204 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-family: "Cairo", sans-serif;
+    background-color: black;
+    text-transform: capitalize;
+
+}
+/* start nav */
+nav{
+    background-color: black;
+    width: 100%;
+    height: max-content;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:space-around ;
+    align-items:center ;
+    z-index: 5000;
+}
+nav img{
+    width: 220px;
+    height: 65px;
+    padding: 10px 10px;
+}
+nav a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.3s ;
+
+}
+nav a:hover{
+    color: white;
+    border-bottom:solid  white;
+    transform: scale(1.3);
+    
+}
+nav a:first-child{
+    padding: 8px 32px;
+    border: 1px solid #c5005b;
+    border-radius: 20px;
+}
+@media (max-width:900px) {
+        nav{
+            background-color: black;
+            width: 100%;
+            height: max-content;
+            position: sticky;
+            top: 0;
+            padding: 10px 10px ;
+            z-index: 5000;
+        }
+}
+/* end nav */
+/* start hessas */
+.hessas{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Photos/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hessas h3{
+    position: absolute;
+    top: 13%;
+    right: 7%;
+    font-size:30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.747);
+}
+.hessas h1{
+        color: white;
+        font-weight:bolder;
+        font-size:40px;
+        line-height: 39px;
+        position: absolute;
+        top: 20%;
+        right: 20px;
+}
+.hessas h6{
+    position: absolute;
+    top: 28%;
+    right: 30px;
+   color: white;
+    font-size: 35px;
+    font-weight:600;
+}
+.hessas button{
+    background-color: #c5005b;
+    color: white;
+    font-size:26px ;
+    cursor: pointer;
+    font-family: "Cairo", sans-serif;
+    position: absolute;
+    top:50%;
+    right: 50px;
+    border-radius: 100px ;
+    font-weight: 700;
+    padding: 20;
+    width: 230px;
+    height: 60px;
+    border: none;
+}
+/* end hessas */
+/* start about */
+#about{
+    padding: 100px 100px;
+    position: relative;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    position: relative;
+}
+#about .d1{
+    color: white;
+    font-size:40px;
+    position: absolute;
+    top: 20px;
+    width: 50%;
+    font-weight: bolder;
+    
+}
+#about img{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    bottom: 40px;
+
+}
+#about .d2{
+    position: absolute;
+    color: white;
+    line-height: 3;
+    font-size: 30px;
+    top: 100px;
+    
+}
+
+
+/* end about */
+/* start how to join */
+#howtobuy{
+
+    width: 60%;
+    height: 200px;
+    padding: 60px 32px 0;
+    border-radius: 30px;
+    background: rgba(95, 0, 44, .35);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#howtobuy img{
+    background-color: antiquewhite;
+    transition-duration:0.4s;
+}
+#howtobuy p{
+    color: wheat;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: wavy 4px;
+    transition-duration: 0.4s;
+}
+.h11{
+    color: white;
+
+}
+img:hover{
+    transform: scale(1.5);
+}
+p:hover{
+    transform: scale(1.3);
+    border:2px solid crimson;
+    border-radius:20px ;
+    padding: 10px 10px;
+}
+/* end how to join */
+footer{
+    width: 75%;
+    height: 300px;
+    background-color:rgba(95, 0, 44, .35);
+    border-radius: 30px;
+    margin: auto;
+
+}
+footer div:first-child{
+    color: goldenrod;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
+footer div:last-child{
+    color: goldenrod;
+    font-size: 70px;
+    font-style: italic;
+    text-align: center;
+}
